@@ -13,6 +13,5 @@ const getNewObj = (arr) => {
    }
    return result;
 }
-
-// const inputArr = ['Berlin', 'Paris', 'Prague'];
+const inputArr = ['Berlin', 'Paris', 'Prague'];
 console.log(getNewObj(inputArr));

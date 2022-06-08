@@ -1,6 +1,6 @@
 
-function nextLetter(str1) {
-  // const str1= document.getElementById("w1").value;
+function nextLetter() {
+  const str1= document.getElementById("w1").value;
   const Alphabet = [
     // lower case alphabet
     "a", "b", "c",
@@ -35,12 +35,13 @@ function nextLetter(str1) {
   });
   let Assemble = () => LetterArray.join("").trim();
  
-  return Assemble();
-  
+  // return Assemble();
+  document.getElementById("demo").innerHTML = Assemble();
 }
 // alert(Assemble)
- 
- console.log(nextLetter("coding"));
+// document.write(nextLetter());
+// document.getElementById("demo").innerHTML = Assemble();
+//  console.log(nextLetter("coding"));
 /*var temp=document.getElementById(str1);
 var assign=document.getElementById(demo);
 assign.innerHTML=temp.value;*/
